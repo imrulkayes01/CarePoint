@@ -197,11 +197,11 @@
   <section class="bg-[#a8b8ac] py-24">
     <div class="max-w-[1280px] mx-auto px-5 text-center">
       <!-- Title -->
-      <h1 class="text-4xl font-bold mb-4">
-        <span class="text-[#FF5C35]">Hello</span> I'm Imrul
+      <h1 class="text-[1.5rem] lg:text-[45px] font-bold mb-4">
+        <span class="text-[#FF5C35]">Meeting our basic needs is the</span> <br>first step toward a better life.
       </h1>
-      <p class="text-gray-600 mb-6 text-lg">
-        wait a minutes
+      <p class="text-[green] mb-6 text-[1.5rem]">
+        Let's learn about our basic needs.
       </p>
 
       <!-- Comparison Grid -->
