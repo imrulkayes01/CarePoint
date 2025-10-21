@@ -1,28 +1,384 @@
 <template>
   <section class="bg-[#E9F2FF]">
-    <div class=" max-w-[1280px] h-[100vh] mx-auto items-center px-4 pt-32  ">
-      <div class="flex justify-center items-center ">
-        <img src="/photo/design-img.png" alt="design" class="mx-auto">
+    <div>
+      <div class=" max-w-[1280px] mx-auto items-center px-4 pt-[10rem] ">
+        <div class="flex justify-center items-center ">
+          <img src="/photo/design-img.png" alt="design" class="mx-auto max-w-full h-auto">
+        </div>
+
+        <div class="text-center pt-[4rem]">
+          <h1
+            class="max-w-[1100px] mx-auto text-2xl sm:text-3xl lg:text-[45px] font-[700] leading-[1.1] lg:leading-[1.4] ">
+            Every person deserves food, clothing, and health.
+            Education and shelter make their best shine.
+          </h1>
+
+          <p class="max-w-[680px] mx-auto lg:text-[1.5rem] font-[400] mt-12">
+            Every person needs food, clothing, and care.
+            Education and shelter must be theirs to share.
+            When basic needs are met, their dreams take flight.
+            Their best will shine, a beacon of light.
+          </p>
+        </div>
       </div>
 
-      <div class="text-center pt-[4rem]">
-        <h1
-          class="max-w-[1100px] mx-auto text-2xl sm:text-3xl lg:text-[45px] font-[700] leading-[1.1] lg:leading-[1.4] ">
-          Every person deserves food, clothing, and health.
-          Education and shelter make their best shine.
-        </h1>
+      <div class="marqutag ">
+        <div class="marquee-track">
+          <div>
+            <img src="/photo/image/agriculturals.png" alt="Agriculture">
+          </div>
 
-        <p class="max-w-[680px] mx-auto lg:text-[1.5rem] font-[400] mt-12">
-          Every person needs food, clothing, and care.
-          Education and shelter must be theirs to share.
-          When basic needs are met, their dreams take flight.
-          Their best will shine, a beacon of light.
-        </p>
+          <div>
+            <img src="/photo/image/agriculturalss.png" alt="Farming">
+          </div>
+
+          <div>
+            <img src="/photo/image/clothes-.png" alt="Clothes">
+          </div>
+
+          <div>
+            <img src="/photo/image/doctore.png" alt="Doctor">
+          </div>
+
+          <div>
+            <img src="/photo/image/food.png" alt="Food">
+          </div>
+
+          <div>
+            <img src="/photo/image/home.png" alt="Home">
+          </div>
+
+          <div>
+            <img src="/photo/image/teacher.png" alt="Teacher">
+          </div>
+
+          <div>
+            <img src="/photo/image/agriculturals.png" alt="Agriculture duplicate">
+          </div>
+
+          <div>
+            <img src="/photo/image/agriculturalss.png" alt="Farming duplicate">
+          </div>
+
+          <div>
+            <img src="/photo/image/clothes-.png" alt="Clothes duplicate">
+          </div>
+
+          <div>
+            <img src="/photo/image/doctore.png" alt="Doctor duplicate">
+          </div>
+
+          <div>
+            <img src="/photo/image/food.png" alt="Food duplicate">
+          </div>
+
+          <div>
+            <img src="/photo/image/home.png" alt="Home duplicate">
+          </div>
+
+          <div>
+            <img src="/photo/image/teacher.png" alt="Teacher duplicate">
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
+  <section class="bg-[#E1E3E1] py-24">
+    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+
+      <!-- Text Section -->
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          Morning Fuel: Start Your Day the Bright Way!
+        </h1>
+        <p class="lg:text-[1.5rem]">
+          More than just a treat for the eyes, this bowl enhances your inner glow.
+          The fresh fruits are loaded with antioxidants that keep your skin vibrant.
+          Healthy and Stylish all in one.
+        </p>
+      </div>
+
+      <!-- Image Section -->
+      <div class="flex justify-center">
+        <img src="/photo/picture/Foods.png" alt="Foods"
+          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+      </div>
+
+    </div>
+    <!-- Two -->
+    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+
+      <!-- Image Section -->
+      <div class="flex justify-center">
+        <img src="/photo/picture/Clothing.png" alt="Clothing"
+          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+      </div>
+
+      <!-- Text Section -->
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          Everyday Comfort, Timeless Style.
+        </h1>
+        <p class="lg:text-[1.5rem]">
+          The perfect blend of linen, cotton, and knits. These pieces offer comfort and confidence in any setting.
+          Elevate your wardrobe with these classic colours and textures.
+        </p>
+      </div>
+
+
+
+    </div>
+    <!-- Three -->
+    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+
+      <!-- Text Section -->
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          A Return to Roots: Where Peace and Nature Unite.
+        </h1>
+        <p class="lg:text-[1.5rem]">
+          Leave modern life behind and visit this tranquil village. Witness local culture, farming, and the simple lives
+          of the people. Check out our new rural tour packages.
+        </p>
+      </div>
+
+      <!-- Image Section -->
+      <div class="flex justify-center">
+        <img src="/photo/picture/Shelter.png" alt="Shelter"
+          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+      </div>
+    </div>
+    <!-- Four -->
+    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+
+      <!-- Image Section -->
+      <div class="flex justify-center">
+        <img src="/photo/picture/Education.png" alt="Education"
+          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+      </div>
+
+      <!-- Text Section -->
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          A Small Effort, A Brighter Future.
+        </h1>
+        <p class="lg:text-[1.5rem]">
+          There is no limit to learning, only the will to know. Guided by a dedicated teacher, these children are
+          learning to dream. Let the light of education reach every corner of society. Learn more about our initiative.
+        </p>
+      </div>
+
+    </div>
+    <!-- Five -->
+    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+
+      <!-- Text Section -->
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          A Healthy Community, A Better Life.
+        </h1>
+        <p class="lg:text-[1.5rem]">
+          Healthcare is not just treatment; it's about patience and trust. Our experienced doctors dedicate time to
+          every patient, ensuring accurate diagnosis and effective treatment. Book your appointment for better health
+          today.
+        </p>
+      </div>
+
+      <!-- Image Section -->
+      <div class="flex justify-center">
+        <img src="/photo/picture/Healthcare.png" alt="Healthcare"
+          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="bg-[#a8b8ac] py-24">
+    <div class="max-w-[1280px] mx-auto px-5 text-center">
+      <!-- Title -->
+      <h1 class="text-4xl font-bold mb-4">
+        <span class="text-[#FF5C35]">Hello</span> I'm Imrul
+      </h1>
+      <p class="text-gray-600 mb-6 text-lg">
+        wait a minutes
+      </p>
+
+      <!-- Comparison Grid -->
+      <div class="grid md:grid-cols-2 gap-8 text-left">
+        <!-- Good -->
+        <div class="bg-white border border-green-200 rounded-2xl p-8 shadow-sm">
+          <h2 class="text-2xl font-semibold mb-2 text-gray-800">Good</h2>
+
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex gap-2"><span class="text-green-600">✔</span> Essential for physical development, providing
+              energy, and building a strong immune system to fight diseases.</li>
+            <li class="flex gap-2"><span class="text-green-600">✔</span>It not only protects from cold and harsh weather
+              but also expresses personality and boosts our confidence and social appeal.</li>
+            <li class="flex gap-2"><span class="text-green-600">✔</span> Guarantees safety, comfort, and protection,
+              making a healthy and normal life possible.</li>
+            <li class="flex gap-2"><span class="text-green-600">✔</span>The primary requirement for progress and success
+              in all spheres of life; knowledge illuminates the path to achievement.</li>
+            <li class="flex gap-2"><span class="text-green-600">✔</span> Proper medical care is crucial for the timely
+              recovery from any physical or mental issue and for maintaining long-term wellness.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bade -->
+        <div class="bg-white border border-red-200 rounded-2xl p-8 shadow-sm">
+          <h2 class="text-2xl font-semibold mb-2 text-gray-800">Bade</h2>
+
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex gap-2"><span class="text-red-500">✖</span>Lack of food leads to physical weakness, reduced
+              work capacity, and an increased risk of severe malnutrition-related illnesses.
+            </li>
+            <li class="flex gap-2"><span class="text-red-500">✖</span>Without proper clothing, it is difficult to
+              protect the body from extreme weather (cold, rain, heat), leading to health problems and social distress.
+            </li>
+            <li class="flex gap-2"><span class="text-red-500">✖</span>Absence of secure housing exposes life to various
+              natural disasters like storms, rain, heat, and even dangers from wild animals.</li>
+            <li class="flex gap-2"><span class="text-red-500">✖</span>It is difficult to acquire skills without
+              education, leading to setbacks in career prospects and limiting opportunities for an improved life. </li>
+            <li class="flex gap-2"><span class="text-red-500">✖</span> Without timely medical intervention, minor
+              illnesses can become critical, and crucial health problems may remain undiagnosed, leading to serious
+              complications.</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section class="px-4 lg:px-8 py-24">
+    <div class="max-w-[1200px] mx-auto">
+      <div>
+        <h2 class="text-white lg:leading-[1.4] text-3xl lg:text-[40px] font-[500] leading-tight mb-4 text-center">We
+          Don't Miss -
+          Here's <br>
+          <span class="text-transparent  bg-clip-text bg-gradient-to-r from-[#B564FF] to-[#D99FCC]"> How
+          </span> :dart:
+        </h2>
+      </div>
+     
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8">
+        <div class="relative min-h-[350px] sm:min-h-[400px] rounded-[16px] bg-cover bg-center flex flex-col"
+          style="background-image: url('/img/Ai-image/background_img.png')">
+        
+          <div class="flex-1 p-4 sm:p-6 flex items-center justify-center">
+            <div class="w-full max-w-[350px] h-[140px] sm:h-[180px]">
+              <img class="w-full h-full object-contain" src="#" alt="quick-pics" />
+            </div>
+          </div>
+          <div class="p-4 sm:p-6">
+            <h2 class="text-white text-xl sm:text-2xl font-medium leading-tight mb-3">
+              Step 1: <br />
+              Take 3 Quick Pics
+            </h2>
+            <p class="text-[#CAC6D6] text-sm sm:text-base font-normal leading-relaxed">
+              Front, left, right angles. Good lighting = better
+              results, but we work with what you got.
+            </p>
+          </div>
+        </div>
+        <div class="relative min-h-[350px] sm:min-h-[400px] rounded-[16px] bg-cover bg-center flex flex-col"
+          style="background-image: url('#')">
+         
+          <div class="flex-1 p-4 sm:p-6 flex items-center justify-center">
+            <div class="w-full max-w-[325px] h-[140px] sm:h-[160px]">
+              <img class="w-full h-full object-contain" src="#" alt="face-shape" />
+            </div>
+          </div>
+          <div class="p-4 sm:p-6">
+            <h2 class="text-white text-xl sm:text-2xl font-medium leading-tight mb-3">
+              Step 2: <br />
+              AI Reads Your Face Shape
+            </h2>
+            <p class="text-[#CAC6D6] text-sm sm:text-base font-normal leading-relaxed">
+              Get personalized fade recommendations that actually suit YOUR face.
+            </p>
+          </div>
+        </div>
+        <div class="relative min-h-[350px] sm:min-h-[400px] rounded-[16px] bg-cover bg-center flex flex-col"
+          style="background-image: url('#')">
+          
+          <div class="flex-1 p-4 sm:p-6 flex items-center justify-center">
+            <div class="w-full max-w-[305px] h-[140px] sm:h-[150px]">
+              <img class="w-full h-full object-contain" src="#" alt="transfor-mation" />
+            </div>
+          </div>
+          <div class="p-4 sm:p-6">
+            <h2 class="text-white text-xl sm:text-2xl font-medium leading-tight mb-3">
+              Step 3: <br />
+              See Your Transformation
+            </h2>
+            <p class="text-[#CAC6D6] text-sm sm:text-base font-normal leading-relaxed">
+              360° video preview so you know it's gonna look fire before you risk it all at the barber.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8 flex justify-center">
+        <button
+          class="bg-gradient-to-r from-[#E4D9F7] to-[#FEDADA] hover:from-[#D4C9E7] hover:to-[#EECACA] text-gray-800 px-8 py-3 rounded-[24px] font-semibold transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105">
+          <a href="#">Watch it work</a>
+        </button>
+      </div>
+    </div>
+  </section> -->
 </template>
+
 
 <script></script>
 
-<style></style>
+<style scoped>
+/* marquee section fix */
+.marqutag {
+  overflow: hidden;
+  padding: 6rem 0;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  will-change: transform;
+  animation: marquee-left 25s linear infinite;
+}
+
+/* keep images at their real/intrinsic size */
+.marquee-track img {
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+/* prevent items from shrinking, needed for seamless scroll */
+.marquee-track>div {
+  flex: 0 0 auto;
+}
+
+/* pause on hover */
+.marqutag:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (max-width: 1024px) {
+  .marquee-track img {
+    height: 5rem;
+    width: auto;
+  }
+}
+
+/* keep images at auto size above these breakpoints via base rule */
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>
