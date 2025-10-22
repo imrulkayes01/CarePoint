@@ -1,12 +1,12 @@
 <template>
   <section class="bg-[#E9F2FF]">
     <div>
-      <div class=" max-w-[1280px] mx-auto items-center px-4 pt-[8rem] ">
+      <div class=" max-w-[1280px] mx-auto items-center px-4 lg:pt-[8rem] pt-[6.5rem] lg:pb-[4rem] pb-[2rem]">
         <div class="text-center pt-[0rem]">
           <h1
-            class="max-w-[1100px] mx-auto text-2xl sm:text-3xl lg:text-[56px] font-[700] leading-[1.1] lg:leading-[1.4] text-[#ef36cd]">
-            <span class="text-[green]">Fulfilling the Essentials</span> of Life Trusted Care for Your<span
-              class="text-[orange]"> Home and
+            class="max-w-[1100px] mx-auto text-3xl sm:text-[2.4rem] lg:text-[58px] font-[600] leading-[1.1] lg:leading-[1.4] ">
+            Fulfilling the Essentials of Life Trusted <span class="text-[tomato]"> Care for Your
+              Home and
               Family.</span>
           </h1>
 
@@ -14,7 +14,7 @@
             <img src="/photo/design-img.png" alt="design" class="mx-auto max-w-full h-auto">
           </div>
 
-          <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[2rem] text-[#757D88]">
+          <p class="max-w-[680px] mx-auto lg:text-[22px] text-[15px] font-[400] mt-[2rem] text-[#757D88]">
             We connect you with verified skilled professionals from expert Cookers for your nourishment to reliable
             Cleaners for your shelter ensuring a life of quality and peace.
           </p>
@@ -23,66 +23,6 @@
             class="lg:text-[22px] text-[16px] mt-[2rem] px-6 py-3 font-semibold text-white bg-gradient-to-r from-[#881337] to-[orange] rounded-full shadow-md hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg transition-all duration-300 ease-in-out">
             Explore Our Services
           </button>
-        </div>
-      </div>
-
-      <div class="marqutag ">
-        <div class="marquee-track">
-          <div>
-            <img src="/photo/image/agriculturals.png" alt="Agriculture">
-          </div>
-
-          <div>
-            <img src="/photo/image/agriculturalss.png" alt="Farming">
-          </div>
-
-          <div>
-            <img src="/photo/image/clothes-.png" alt="Clothes">
-          </div>
-
-          <div>
-            <img src="/photo/image/doctore.png" alt="Doctor">
-          </div>
-
-          <div>
-            <img src="/photo/image/food.png" alt="Food">
-          </div>
-
-          <div>
-            <img src="/photo/image/home.png" alt="Home">
-          </div>
-
-          <div>
-            <img src="/photo/image/teacher.png" alt="Teacher">
-          </div>
-
-          <div>
-            <img src="/photo/image/agriculturals.png" alt="Agriculture duplicate">
-          </div>
-
-          <div>
-            <img src="/photo/image/agriculturalss.png" alt="Farming duplicate">
-          </div>
-
-          <div>
-            <img src="/photo/image/clothes-.png" alt="Clothes duplicate">
-          </div>
-
-          <div>
-            <img src="/photo/image/doctore.png" alt="Doctor duplicate">
-          </div>
-
-          <div>
-            <img src="/photo/image/food.png" alt="Food duplicate">
-          </div>
-
-          <div>
-            <img src="/photo/image/home.png" alt="Home duplicate">
-          </div>
-
-          <div>
-            <img src="/photo/image/teacher.png" alt="Teacher duplicate">
-          </div>
         </div>
       </div>
     </div>
@@ -391,57 +331,8 @@ const toggleFaq = (faqId) => {
 }
 
 onMounted(() => {
-  // FAQ data is already loaded from JSON
+
 })
 </script>
 
-<style scoped>
-/* marquee section fix */
-.marqutag {
-  overflow: hidden;
-  padding: 4rem 0;
-}
-
-.marquee-track {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-  will-change: transform;
-  animation: marquee-left 25s linear infinite;
-}
-
-/* keep images at their real/intrinsic size */
-.marquee-track img {
-  height: auto;
-  width: auto;
-  display: block;
-}
-
-/* prevent items from shrinking, needed for seamless scroll */
-.marquee-track>div {
-  flex: 0 0 auto;
-}
-
-/* pause on hover */
-.marqutag:hover .marquee-track {
-  animation-play-state: paused;
-}
-
-@media (max-width: 1024px) {
-  .marquee-track img {
-    height: 5rem;
-    width: auto;
-  }
-}
-
-/* keep images at auto size above these breakpoints via base rule */
-@keyframes marquee-left {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-</style>
+<style scoped></style>
