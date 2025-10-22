@@ -28,113 +28,103 @@
     </div>
   </section>
 
-  <section class="bg-[#E9EEF6] py-24">
-    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+  <section class="bg-[#E9EEF6] py-0 lg:py-[6rem]">
+    <div class="max-w-[1280px] mx-auto px-5">
+      <div class="grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
 
-      <!-- Text Section -->
-      <div>
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          Morning Fuel: Start Your Day the Bright Way!
-        </h1>
-        <p class="lg:text-[18px] text-[16px]">
-          More than just a treat for the eyes, this bowl enhances your inner glow.
-          The fresh fruits are loaded with antioxidants that keep your skin vibrant.
-          Healthy and Stylish all in one.
-        </p>
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Morning Fuel: Start Your Day the Bright Way!
+          </h1>
+          <p class="lg:text-[18px] text-[16px]">
+            More than just a treat for the eyes, this bowl enhances your inner glow.
+            The fresh fruits are loaded with antioxidants that keep your skin vibrant.
+            Healthy and Stylish all in one.
+          </p>
+        </div>
+
+        <div class="flex justify-center">
+          <img src="/photo/picture/Foods.png" alt="Foods"
+            class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        </div>
       </div>
+      <!-- Two -->
+      <div class="grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
 
-      <!-- Image Section -->
-      <div class="flex justify-center">
-        <img src="/photo/picture/Foods.png" alt="Foods"
-          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        <div class="flex justify-center order-last md:order-first">
+          <img src="/photo/picture/Clothing.png" alt="Clothing"
+            class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        </div>
+
+        <div class="order-first md:order-last">
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Everyday Comfort, Timeless Style.
+          </h1>
+          <p class="lg:text-[18px] text-[16px]">
+            The perfect blend of linen, cotton, and knits. These pieces offer comfort and confidence in any setting.
+            Elevate your wardrobe with these classic colours and textures.
+          </p>
+        </div>
+
       </div>
+      <!-- Three -->
+      <div class=" grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
 
-    </div>
-    <!-- Two -->
-    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            A Return to Roots: Where Peace and Nature Unite.
+          </h1>
+          <p class="lg:text-[18px] text-[16px]">
+            Leave modern life behind and visit this tranquil village. Witness local culture, farming, and the simple
+            lives
+            of the people. Check out our new rural tour packages.
+          </p>
+        </div>
 
-      <!-- Image Section -->
-      <div class="flex justify-center">
-        <img src="/photo/picture/Clothing.png" alt="Clothing"
-          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        <div class="flex justify-center">
+          <img src="/photo/picture/Shelter.png" alt="Shelter"
+            class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        </div>
       </div>
+      <!-- Four -->
+      <div class="grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
 
-      <!-- Text Section -->
-      <div>
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          Everyday Comfort, Timeless Style.
-        </h1>
-        <p class="lg:text-[18px] text-[16px]">
-          The perfect blend of linen, cotton, and knits. These pieces offer comfort and confidence in any setting.
-          Elevate your wardrobe with these classic colours and textures.
-        </p>
+        <div class="flex justify-center order-last md:order-first">
+          <img src="/photo/picture/Education.png" alt="Education"
+            class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        </div>
+
+        <div class="order-first md:order-last">
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            A Small Effort, A Brighter Future.
+          </h1>
+          <p class="lg:text-[18px] text-[16px]">
+            There is no limit to learning, only the will to know. Guided by a dedicated teacher, these children are
+            learning to dream. Let the light of education reach every corner of society. Learn more about our
+            initiative.
+          </p>
+        </div>
+
       </div>
+      <!-- Five -->
+      <div class=" grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
 
+        <div>
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            A Healthy Community, A Better Life.
+          </h1>
+          <p class="lg:text-[18px] text-[16px]">
+            Healthcare is not just treatment; it's about patience and trust. Our experienced doctors dedicate time to
+            every patient, ensuring accurate diagnosis and effective treatment. Book your appointment for better health
+            today.
+          </p>
+        </div>
 
-
-    </div>
-    <!-- Three -->
-    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
-
-      <!-- Text Section -->
-      <div>
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          A Return to Roots: Where Peace and Nature Unite.
-        </h1>
-        <p class="lg:text-[18px] text-[16px]">
-          Leave modern life behind and visit this tranquil village. Witness local culture, farming, and the simple lives
-          of the people. Check out our new rural tour packages.
-        </p>
+        <div class="flex justify-center">
+          <img src="/photo/picture/Healthcare.png" alt="Healthcare"
+            class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
+        </div>
       </div>
-
-      <!-- Image Section -->
-      <div class="flex justify-center">
-        <img src="/photo/picture/Shelter.png" alt="Shelter"
-          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
-      </div>
-    </div>
-    <!-- Four -->
-    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
-
-      <!-- Image Section -->
-      <div class="flex justify-center">
-        <img src="/photo/picture/Education.png" alt="Education"
-          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
-      </div>
-
-      <!-- Text Section -->
-      <div>
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          A Small Effort, A Brighter Future.
-        </h1>
-        <p class="lg:text-[18px] text-[16px]">
-          There is no limit to learning, only the will to know. Guided by a dedicated teacher, these children are
-          learning to dream. Let the light of education reach every corner of society. Learn more about our initiative.
-        </p>
-      </div>
-
-    </div>
-    <!-- Five -->
-    <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
-
-      <!-- Text Section -->
-      <div>
-        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          A Healthy Community, A Better Life.
-        </h1>
-        <p class="lg:text-[18px] text-[16px]">
-          Healthcare is not just treatment; it's about patience and trust. Our experienced doctors dedicate time to
-          every patient, ensuring accurate diagnosis and effective treatment. Book your appointment for better health
-          today.
-        </p>
-      </div>
-
-      <!-- Image Section -->
-      <div class="flex justify-center">
-        <img src="/photo/picture/Healthcare.png" alt="Healthcare"
-          class="w-full max-w-sm md:max-w-lg rounded-xl shadow-lg object-cover transform transition-transform duration-300 hover:scale-105">
-      </div>
-
     </div>
   </section>
 
