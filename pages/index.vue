@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#E9F2FF]">
     <div>
-      <div class=" max-w-[1280px] mx-auto items-center px-4 lg:pt-[8rem] pt-[6.5rem] lg:pb-[4rem] pb-[2rem]">
+      <div class=" max-w-[1280px] mx-auto items-center px-5 lg:pt-[8rem] pt-[8rem] lg:pb-[4rem] pb-[3.5rem]">
         <div class="text-center pt-[0rem]">
           <h1
             class="max-w-[1100px] mx-auto text-3xl sm:text-[2.4rem] lg:text-[58px] font-[600] leading-[1.1] lg:leading-[1.4] ">
@@ -14,33 +14,46 @@
             <img src="/photo/design-img.png" alt="design" class="mx-auto max-w-full h-auto">
           </div>
 
-          <p class="max-w-[680px] mx-auto lg:text-[22px] text-[15px] font-[400] mt-[2rem] text-[#757D88]">
+          <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[2rem] text-gray-600">
             We connect you with verified skilled professionals from expert Cookers for your nourishment to reliable
             Cleaners for your shelter ensuring a life of quality and peace.
           </p>
 
-          <button
-            class="lg:text-[22px] text-[16px] mt-[2rem] px-6 py-3 font-semibold text-white bg-gradient-to-r from-[#881337] to-[orange] rounded-full shadow-md hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg transition-all duration-300 ease-in-out">
+          <a href="#" class="inline-block lg:text-[22px] text-[16px] mt-[2rem] px-6 py-3 font-semibold text-white 
+         bg-gradient-to-r from-[#881337] to-orange-500 
+         rounded-full shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
             Explore Our Services
-          </button>
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-[#E9EEF6] py-2 lg:py-[6rem]">
+  <section class="bg-[#E9EEF6] py-3 lg:py-[6rem]">
     <div class="max-w-[1280px] mx-auto px-5">
+
       <div class="grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div>
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 class="text-2xl md:text-4xl font-[600] text-gray-800 mb-4">
             Morning Fuel: Start Your Day the Bright Way!
           </h1>
-          <p class="lg:text-[18px] text-[16px]">
+          <p class="lg:text-[18px] text-[16px] text-gray-600">
             More than just a treat for the eyes, this bowl enhances your inner glow.
             The fresh fruits are loaded with antioxidants that keep your skin vibrant.
             Healthy and Stylish all in one.
           </p>
+
+          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+         bg-gradient-to-r from-[#881337] to-orange-500 
+         rounded-full shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
+            View Details
+          </a>
+
         </div>
 
         <div class="flex justify-center">
@@ -57,13 +70,21 @@
         </div>
 
         <div class="order-first md:order-last">
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 class="text-2xl md:text-4xl font-[600] text-gray-800 mb-4">
             Everyday Comfort, Timeless Style.
           </h1>
-          <p class="lg:text-[18px] text-[16px]">
+          <p class="lg:text-[18px] text-[16px] text-gray-600">
             The perfect blend of linen, cotton, and knits. These pieces offer comfort and confidence in any setting.
             Elevate your wardrobe with these classic colours and textures.
           </p>
+
+          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+         bg-gradient-to-r from-[#881337] to-orange-500 
+         rounded-full shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
+            View Details
+          </a>
         </div>
 
       </div>
@@ -71,14 +92,22 @@
       <div class=" grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div>
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 class="text-2xl md:text-4xl font-[600] text-gray-800 mb-4">
             A Return to Roots: Where Peace and Nature Unite.
           </h1>
-          <p class="lg:text-[18px] text-[16px]">
+          <p class="lg:text-[18px] text-[16px] text-gray-600">
             Leave modern life behind and visit this tranquil village. Witness local culture, farming, and the simple
             lives
             of the people. Check out our new rural tour packages.
           </p>
+
+          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+         bg-gradient-to-r from-[#881337] to-orange-500 
+         rounded-full shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
+            View Details
+          </a>
         </div>
 
         <div class="flex justify-center">
@@ -95,14 +124,22 @@
         </div>
 
         <div class="order-first md:order-last">
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 class="text-2xl md:text-4xl font-[600] text-gray-800 mb-4">
             A Small Effort, A Brighter Future.
           </h1>
-          <p class="lg:text-[18px] text-[16px]">
+          <p class="lg:text-[18px] text-[16px] text-gray-600">
             There is no limit to learning, only the will to know. Guided by a dedicated teacher, these children are
             learning to dream. Let the light of education reach every corner of society. Learn more about our
             initiative.
           </p>
+
+          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+         bg-gradient-to-r from-[#881337] to-orange-500 
+         rounded-full shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
+            View Details
+          </a>
         </div>
 
       </div>
@@ -110,14 +147,22 @@
       <div class=" grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div>
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          <h1 class="text-2xl md:text-4xl font-[600] text-gray-800 mb-4">
             A Healthy Community, A Better Life.
           </h1>
-          <p class="lg:text-[18px] text-[16px]">
+          <p class="lg:text-[18px] text-[16px] text-gray-600">
             Healthcare is not just treatment; it's about patience and trust. Our experienced doctors dedicate time to
             every patient, ensuring accurate diagnosis and effective treatment. Book your appointment for better health
             today.
           </p>
+
+          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+         bg-gradient-to-r from-[#881337] to-orange-500 
+         rounded-full shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
+            View Details
+          </a>
         </div>
 
         <div class="flex justify-center">
@@ -128,17 +173,16 @@
     </div>
   </section>
 
-  <section class="bg-[#F2F6FC] py-24">
+  <section class="bg-[#F2F6FC] py-8 lg:py-[6rem] pb-12 lg:pb-[6rem]">
     <div class="max-w-[1280px] mx-auto px-5 text-center">
       <!-- Title -->
-      <h1 class="text-[1.5rem] lg:text-[45px] font-bold mb-4">
-        <span class="text-[#FF5C35]">Meeting our basic needs is the</span> <br>first step toward a better life.
+      <h1 class="max-w-[700px] mx-auto  text-3xl lg:text-[45px] leading-[1.1] lg:leading-[1.4]  font-[600] mb-4">
+        <span class="text-[#FF5C35]">Meeting our basic needs is the</span> first step toward a better life.
       </h1>
-      <p class="text-[green] mb-6 text-[1.5rem]">
+      <p class="text-[green] mb-6 text-[16px] lg:text-[1.5rem]">
         Let's learn about our basic needs.
       </p>
 
-      <!-- Comparison Grid -->
       <div class="grid md:grid-cols-2 gap-8 text-left">
         <!-- Good -->
         <div class="bg-white border border-green-400 rounded-2xl p-8 shadow-sm">
@@ -186,11 +230,11 @@
   </section>
 
   <!-- FAQ Section -->
-  <section class="bg-[#EBEDF0] py-24">
+  <section class="bg-[#EBEDF0] py-8 lg:py-[6rem]">
     <div class="max-w-[1280px] mx-auto px-5">
       <!-- FAQ Title -->
       <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-[600] text-gray-800 mb-4">
           Frequently Asked Questions
         </h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto">
