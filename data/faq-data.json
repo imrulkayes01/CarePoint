@@ -1,0 +1,34 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Why is just filling the stomach not enough?",
+      "answer": "We need balanced nutrition. A proper mix of vitamins, protein, and minerals is essential for growth, energy, and a strong immune system."
+    },
+    {
+      "id": 2,
+      "question": "How does clothing affect our mental state?",
+      "answer": "Clothing boosts self-confidence and aids in expressing our personality in social settings. Appropriate attire contributes to mental comfort."
+    },
+    {
+      "id": 3,
+      "question": "Why is shelter more than just 'four walls'?",
+      "answer": "It provides security, mental peace, protection for the family, and a safe refuge from adverse weather conditions."
+    },
+    {
+      "id": 4,
+      "question": "Is education limited only to degrees and certificates?",
+      "answer": "No. True education includes acquiring life skills, developing critical thinking, and gaining problem-solving abilities alongside formal schooling."
+    },
+    {
+      "id": 5,
+      "question": "Why is primary health care so important?",
+      "answer": "Primary healthcare prevents minor issues from becoming serious illnesses. Regular check-ups and advice are crucial for preventing major diseases in the future."
+    },
+    {
+      "id": 6,
+      "question": "What happens if these 5 needs are unmet?",
+      "answer": "Failure to meet any of these needs can lead to physical weakness, mental stress, social instability, and a rapid decline in the overall quality of life."
+    }
+  ]
+}

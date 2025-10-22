@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#E9F2FF]">
     <div>
-      <div class=" max-w-[1280px] mx-auto items-center px-4 pt-[10rem] ">
+      <div class=" max-w-[1280px] mx-auto items-center px-4 pt-[12rem] ">
         <div class="flex justify-center items-center ">
           <img src="/photo/design-img.png" alt="design" class="mx-auto max-w-full h-auto">
         </div>
@@ -13,7 +13,7 @@
             Education and shelter make their best shine.
           </h1>
 
-          <p class="max-w-[680px] mx-auto lg:text-[1.5rem] font-[400] mt-12">
+          <p class="max-w-[680px] mx-auto lg:text-[18px] text-[16px] font-[400] mt-12">
             Every person needs food, clothing, and care.
             Education and shelter must be theirs to share.
             When basic needs are met, their dreams take flight.
@@ -84,7 +84,7 @@
     </div>
   </section>
 
-  <section class="bg-[#E1E3E1] py-24">
+  <section class="bg-[#E9EEF6] py-24">
     <div class="max-w-[1280px] mx-auto px-5 grid md:grid-cols-2 items-center gap-10 py-24">
 
       <!-- Text Section -->
@@ -92,7 +92,7 @@
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           Morning Fuel: Start Your Day the Bright Way!
         </h1>
-        <p class="lg:text-[1.5rem]">
+        <p class="lg:text-[18px] text-[16px]">
           More than just a treat for the eyes, this bowl enhances your inner glow.
           The fresh fruits are loaded with antioxidants that keep your skin vibrant.
           Healthy and Stylish all in one.
@@ -120,7 +120,7 @@
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           Everyday Comfort, Timeless Style.
         </h1>
-        <p class="lg:text-[1.5rem]">
+        <p class="lg:text-[18px] text-[16px]">
           The perfect blend of linen, cotton, and knits. These pieces offer comfort and confidence in any setting.
           Elevate your wardrobe with these classic colours and textures.
         </p>
@@ -137,7 +137,7 @@
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           A Return to Roots: Where Peace and Nature Unite.
         </h1>
-        <p class="lg:text-[1.5rem]">
+        <p class="lg:text-[18px] text-[16px]">
           Leave modern life behind and visit this tranquil village. Witness local culture, farming, and the simple lives
           of the people. Check out our new rural tour packages.
         </p>
@@ -163,7 +163,7 @@
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           A Small Effort, A Brighter Future.
         </h1>
-        <p class="lg:text-[1.5rem]">
+        <p class="lg:text-[18px] text-[16px]">
           There is no limit to learning, only the will to know. Guided by a dedicated teacher, these children are
           learning to dream. Let the light of education reach every corner of society. Learn more about our initiative.
         </p>
@@ -178,7 +178,7 @@
         <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
           A Healthy Community, A Better Life.
         </h1>
-        <p class="lg:text-[1.5rem]">
+        <p class="lg:text-[18px] text-[16px]">
           Healthcare is not just treatment; it's about patience and trust. Our experienced doctors dedicate time to
           every patient, ensuring accurate diagnosis and effective treatment. Book your appointment for better health
           today.
@@ -194,7 +194,7 @@
     </div>
   </section>
 
-  <section class="bg-[#a8b8ac] py-24">
+  <section class="bg-[#F2F6FC] py-24">
     <div class="max-w-[1280px] mx-auto px-5 text-center">
       <!-- Title -->
       <h1 class="text-[1.5rem] lg:text-[45px] font-bold mb-4">
@@ -207,40 +207,41 @@
       <!-- Comparison Grid -->
       <div class="grid md:grid-cols-2 gap-8 text-left">
         <!-- Good -->
-        <div class="bg-white border border-green-200 rounded-2xl p-8 shadow-sm">
-          <h2 class="text-2xl font-semibold mb-2 text-gray-800">Good</h2>
+        <div class="bg-white border border-green-400 rounded-2xl p-8 shadow-sm">
+          <h2 class="text-2xl font-semibold mb-2 text-gray-800">Benefit & Importance</h2>
 
-          <ul class="space-y-3 text-gray-700">
-            <li class="flex gap-2"><span class="text-green-600">✔</span> Essential for physical development, providing
+          <ul class="space-y-3 text-gray-700 text-[16px]">
+            <li class="flex gap-2"><span>👍</span> Essential for physical development, providing
               energy, and building a strong immune system to fight diseases.</li>
-            <li class="flex gap-2"><span class="text-green-600">✔</span>It not only protects from cold and harsh weather
+            <li class="flex gap-2"><span>👍</span>It not only protects from cold and harsh weather
               but also expresses personality and boosts our confidence and social appeal.</li>
-            <li class="flex gap-2"><span class="text-green-600">✔</span> Guarantees safety, comfort, and protection,
+            <li class="flex gap-2"><span>👍</span> Guarantees safety, comfort, and protection,
               making a healthy and normal life possible.</li>
-            <li class="flex gap-2"><span class="text-green-600">✔</span>The primary requirement for progress and success
+            <li class="flex gap-2"><span>👍</span>The primary requirement for progress and success
               in all spheres of life; knowledge illuminates the path to achievement.</li>
-            <li class="flex gap-2"><span class="text-green-600">✔</span> Proper medical care is crucial for the timely
+            <li class="flex gap-2"><span>👍</span> Proper medical care is crucial for the timely
               recovery from any physical or mental issue and for maintaining long-term wellness.
             </li>
           </ul>
         </div>
 
         <!-- Bade -->
-        <div class="bg-white border border-red-200 rounded-2xl p-8 shadow-sm">
-          <h2 class="text-2xl font-semibold mb-2 text-gray-800">Bade</h2>
+        <div class="bg-white border border-red-400 rounded-2xl p-8 shadow-sm">
+          <h2 class="text-2xl font-semibold mb-2 text-gray-800">Drawback & Consequence</h2>
 
-          <ul class="space-y-3 text-gray-700">
-            <li class="flex gap-2"><span class="text-red-500">✖</span>Lack of food leads to physical weakness, reduced
+          <ul class="space-y-3 text-gray-700 text-[16px]">
+            <li class="flex gap-2"><span>👎</span>Lack of food leads to physical weakness, reduced
               work capacity, and an increased risk of severe malnutrition-related illnesses.
             </li>
-            <li class="flex gap-2"><span class="text-red-500">✖</span>Without proper clothing, it is difficult to
+            <li class="flex gap-2"><span>👎</span>Without proper clothing, it is difficult to
               protect the body from extreme weather (cold, rain, heat), leading to health problems and social distress.
             </li>
-            <li class="flex gap-2"><span class="text-red-500">✖</span>Absence of secure housing exposes life to various
+            <li class="flex gap-2"><span>👎</span>Absence of secure housing exposes life to various
               natural disasters like storms, rain, heat, and even dangers from wild animals.</li>
-            <li class="flex gap-2"><span class="text-red-500">✖</span>It is difficult to acquire skills without
+            <li class="flex gap-2"><span>👎</span>It is difficult to acquire skills without
               education, leading to setbacks in career prospects and limiting opportunities for an improved life. </li>
-            <li class="flex gap-2"><span class="text-red-500">✖</span> Without timely medical intervention, minor
+            <li class="flex gap-2"><span>👎</span> Without timely medical
+              intervention, minor
               illnesses can become critical, and crucial health problems may remain undiagnosed, leading to serious
               complications.</li>
 
@@ -250,6 +251,46 @@
     </div>
   </section>
 
+  <!-- FAQ Section -->
+  <section class="bg-[#EBEDF0] py-24">
+    <div class="max-w-[1280px] mx-auto px-5">
+      <!-- FAQ Title -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          We've got answers to all your questions.
+        </p>
+      </div>
+
+      <!-- FAQ Items -->
+      <div class="max-w-4xl mx-auto">
+        <div v-for="faq in faqData.faqs" :key="faq.id" class="mb-4">
+          <div
+            class="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+            <!-- Question -->
+            <button @click="toggleFaq(faq.id)"
+              class="w-full px-6 py-6 text-left flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-lg">
+              <h3 class="text-lg font-semibold text-gray-800 pr-4">{{ faq.question }}</h3>
+              <div class="flex-shrink-0">
+                <svg :class="{ 'rotate-180': openFaqs.includes(faq.id) }"
+                  class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </button>
+
+            <!-- Answer -->
+            <div v-show="openFaqs.includes(faq.id)" class="px-6 pb-6  text-gray-600 leading-relaxed">
+              <p class="text-lg mt-4">{{ faq.answer }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- <section class="px-4 lg:px-8 py-24">
     <div class="max-w-[1200px] mx-auto">
@@ -329,8 +370,26 @@
   </section> -->
 </template>
 
+<script setup>
+import { ref, onMounted } from 'vue'
+import faqData from '../data/faq-data.json'
 
-<script></script>
+// Reactive data
+const openFaqs = ref([])
+
+// Methods
+const toggleFaq = (faqId) => {
+  if (openFaqs.value.includes(faqId)) {
+    openFaqs.value = openFaqs.value.filter(id => id !== faqId)
+  } else {
+    openFaqs.value.push(faqId)
+  }
+}
+
+onMounted(() => {
+  // FAQ data is already loaded from JSON
+})
+</script>
 
 <style scoped>
 /* marquee section fix */
