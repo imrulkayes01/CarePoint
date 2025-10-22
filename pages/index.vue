@@ -1,24 +1,28 @@
 <template>
   <section class="bg-[#E9F2FF]">
     <div>
-      <div class=" max-w-[1280px] mx-auto items-center px-4 pt-[12rem] ">
-        <div class="flex justify-center items-center ">
-          <img src="/photo/design-img.png" alt="design" class="mx-auto max-w-full h-auto">
-        </div>
-
-        <div class="text-center pt-[4rem]">
+      <div class=" max-w-[1280px] mx-auto items-center px-4 pt-[8rem] ">
+        <div class="text-center pt-[0rem]">
           <h1
-            class="max-w-[1100px] mx-auto text-2xl sm:text-3xl lg:text-[45px] font-[700] leading-[1.1] lg:leading-[1.4] ">
-            Every person deserves food, clothing, and health.
-            Education and shelter make their best shine.
+            class="max-w-[1100px] mx-auto text-2xl sm:text-3xl lg:text-[56px] font-[700] leading-[1.1] lg:leading-[1.4] text-[#ef36cd]">
+            <span class="text-[green]">Fulfilling the Essentials</span> of Life Trusted Care for Your<span
+              class="text-[orange]"> Home and
+              Family.</span>
           </h1>
 
-          <p class="max-w-[680px] mx-auto lg:text-[18px] text-[16px] font-[400] mt-12">
-            Every person needs food, clothing, and care.
-            Education and shelter must be theirs to share.
-            When basic needs are met, their dreams take flight.
-            Their best will shine, a beacon of light.
+          <div class="flex justify-center items-center mt-[2rem]">
+            <img src="/photo/design-img.png" alt="design" class="mx-auto max-w-full h-auto">
+          </div>
+
+          <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[2rem] text-[#757D88]">
+            We connect you with verified skilled professionals from expert Cookers for your nourishment to reliable
+            Cleaners for your shelter ensuring a life of quality and peace.
           </p>
+
+          <button
+            class="lg:text-[22px] text-[16px] mt-[2rem] px-6 py-3 font-semibold text-white bg-gradient-to-r from-[#881337] to-[orange] rounded-full shadow-md hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg transition-all duration-300 ease-in-out">
+            Explore Our Services
+          </button>
         </div>
       </div>
 
@@ -395,7 +399,7 @@ onMounted(() => {
 /* marquee section fix */
 .marqutag {
   overflow: hidden;
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 .marquee-track {
