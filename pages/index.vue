@@ -28,9 +28,9 @@
     </div>
   </section>
 
-  <section class="bg-[#E9EEF6] py-0 lg:py-[6rem]">
+  <section class="bg-[#E9EEF6] py-2 lg:py-[6rem]">
     <div class="max-w-[1280px] mx-auto px-5">
-      <div class="grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
+      <div class="grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -49,7 +49,7 @@
         </div>
       </div>
       <!-- Two -->
-      <div class="grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
+      <div class="grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div class="flex justify-center order-last md:order-first">
           <img src="/photo/picture/Clothing.png" alt="Clothing"
@@ -68,7 +68,7 @@
 
       </div>
       <!-- Three -->
-      <div class=" grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
+      <div class=" grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -87,7 +87,7 @@
         </div>
       </div>
       <!-- Four -->
-      <div class="grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
+      <div class="grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div class="flex justify-center order-last md:order-first">
           <img src="/photo/picture/Education.png" alt="Education"
@@ -107,7 +107,7 @@
 
       </div>
       <!-- Five -->
-      <div class=" grid md:grid-cols-2 items-center gap-10 py-[2rem] lg:py-[6rem]">
+      <div class=" grid md:grid-cols-2 items-center gap-10 py-[2.5rem] lg:py-[6rem]">
 
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
