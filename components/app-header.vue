@@ -8,6 +8,21 @@
             Cape<span class="text-rose-900">Point</span>
           </h1>
         </NuxtLink>
+
+        <!-- <div class="ml-12 hidden lg:block">
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            <input type="text" placeholder="Search"
+              class="w-64 pl-10 pr-4 py-2 border border-blue-200 rounded-lg bg-white text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-400 focus:border-transparent text-[17px]" />
+          </div>
+        </div> -->
+
       </div>
 
       <!-- Hamburger Menu Button (Mobile) -->
@@ -29,6 +44,13 @@
             About
           </NuxtLink>
         </li>
+
+        <li>
+          <NuxtLink to="/contact" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">
+            Contact
+          </NuxtLink>
+        </li>
+
         <li class="relative">
           <div class="group">
             <button type="button"
@@ -47,43 +69,33 @@
               role="menu" aria-label="Services">
               <ul class="py-2">
                 <li>
-                  <NuxtLink to="/services/cleaner" class="block px-4 py-2 text-gray-800 hover:bg-gray-50">Cleaner
+                  <NuxtLink to="/services/food" class="block px-4 py-2 text-gray-800 hover:bg-gray-300">Food
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/services/cooker" class="block px-4 py-2 text-gray-800 hover:bg-gray-50">Cooker
+                  <NuxtLink to="/services/clothing" class="block px-4 py-2 text-gray-800 hover:bg-gray-300">Clothing
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/services/old-age-care" class="block px-4 py-2 text-gray-800 hover:bg-gray-50">Old Age
-                    Care</NuxtLink>
+                  <NuxtLink to="/services/shelter" class="block px-4 py-2 text-gray-800 hover:bg-gray-300">Shelter
+                  </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/services/baby-sitter" class="block px-4 py-2 text-gray-800 hover:bg-gray-50">Baby
-                    Sitter</NuxtLink>
+                  <NuxtLink to="/services/education" class="block px-4 py-2 text-gray-800 hover:bg-gray-300">Education
+                  </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/services/gardener" class="block px-4 py-2 text-gray-800 hover:bg-gray-50">Gardener
+                  <NuxtLink to="/services/healthcare" class="block px-4 py-2 text-gray-800 hover:bg-gray-300">Healthcare
                   </NuxtLink>
                 </li>
               </ul>
             </div>
           </div>
         </li>
-        <li>
-          <NuxtLink to="/job" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">
-            Job
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/contact" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">
-            Contact
-          </NuxtLink>
-        </li>
 
         <li>
           <NuxtLink to="/signin"
-            class="px-4 py-2 border border-[#FB7185] text-[#303944] rounded-lg font-medium hover:bg-[#FB7185] hover:text-white transition-colors">
+            class="px-4 py-2 border border-blue-200 text-[#303944] rounded-lg font-medium hover:bg-[#FB7185] hover:text-white transition-colors">
             Sign In
           </NuxtLink>
         </li>
@@ -100,15 +112,14 @@
           <NuxtLink to="/about" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">About
           </NuxtLink>
         </li>
-        <li>
-          <NuxtLink to="/services" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Services
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/job" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Job</NuxtLink>
-        </li>
+
         <li>
           <NuxtLink to="/contact" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Contact
+          </NuxtLink>
+        </li>
+
+        <li>
+          <NuxtLink to="/services" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Services
           </NuxtLink>
         </li>
 

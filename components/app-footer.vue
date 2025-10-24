@@ -60,7 +60,7 @@
             <li class="flex items-start group cursor-pointer">
               <span class="w-1 h-6 bg-rose-400 mr-3 rounded-r"></span>
               <span class="relative group-hover:text-rose-500 transition-colors duration-300">
-                Cleaner
+                Food
                 <span
                   class="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
               </span>
@@ -69,7 +69,7 @@
             <li class="flex items-start group cursor-pointer">
               <span class="w-1 h-6 bg-rose-400 mr-3 rounded-r"></span>
               <span class="relative group-hover:text-rose-500 transition-colors duration-300">
-                Cooker
+                Clothing
                 <span
                   class="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
               </span>
@@ -78,7 +78,7 @@
             <li class="flex items-start group cursor-pointer">
               <span class="w-1 h-6 bg-rose-400 mr-3 rounded-r"></span>
               <span class="relative group-hover:text-rose-500 transition-colors duration-300">
-                Old Age Care
+                Shelter
                 <span
                   class="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
               </span>
@@ -87,7 +87,7 @@
             <li class="flex items-start group cursor-pointer">
               <span class="w-1 h-6 bg-rose-400 mr-3 rounded-r"></span>
               <span class="relative group-hover:text-rose-500 transition-colors duration-300">
-                Baby Sitter
+                Education
                 <span
                   class="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
               </span>
@@ -96,7 +96,7 @@
             <li class="flex items-start group cursor-pointer">
               <span class="w-1 h-6 bg-rose-400 mr-3 rounded-r"></span>
               <span class="relative group-hover:text-rose-500 transition-colors duration-300">
-                Gardener
+                Healthcare
                 <span
                   class="absolute left-0 -bottom-1 w-0 h-[2px] bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
               </span>
