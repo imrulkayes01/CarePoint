@@ -7,9 +7,9 @@
                         class="max-w-[1100px] mx-auto text-3xl sm:text-[2.4rem] lg:text-[58px] font-[600] leading-[1.1] lg:leading-[1.4] ">
                         <span class="text-[#000]">Your Personalized Nutrition Guide</span>
                     </h1>
-                    <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[1rem] text-gray-600">
+                    <!-- <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[1rem] text-gray-600">
                         Discover Healthy Meals, Book an Expert Cooker.
-                    </p>
+                    </p> -->
 
                     <!-- Search Bar Section -->
                     <div class="max-w-[800px] mx-auto mt-8">
@@ -29,22 +29,22 @@
                         <div class="flex justify-center space-x-3 mt-4">
                             <button @click="filterByCategory('all')"
                                 :class="selectedCategory === 'all' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
-                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-gray-200 transition-colors">
+                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 All
                             </button>
                             <button @click="filterByCategory('breakfast')"
                                 :class="selectedCategory === 'breakfast' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
-                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-gray-200 transition-colors">
+                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 Breakfast
                             </button>
                             <button @click="filterByCategory('lunch')"
                                 :class="selectedCategory === 'lunch' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
-                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-gray-200 transition-colors">
+                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 Lunch
                             </button>
                             <button @click="filterByCategory('dinner')"
                                 :class="selectedCategory === 'dinner' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
-                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-gray-200 transition-colors">
+                                class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 Dinner
                             </button>
                         </div>

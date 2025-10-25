@@ -1,0 +1,93 @@
+[
+  {
+    "id": "item_1",
+    "name": "Mango Berry Smoothie Bowl",
+    "description": "Rich in antioxidant berries & fiber",
+    "image": "/Clothing_photo/Boys_Black_T-Shirt.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_2",
+    "name": "High-Protein Lentil Soup",
+    "description": "Great for energy",
+    "image": "/Clothing_photo/boys-Navy-panjabi.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_3",
+    "name": "Grilled Chicken Salad",
+    "description": "Rich in 5 vitamins",
+    "image": "/Clothing_photo/Girls Shirt-White.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_4",
+    "name": "Grilled Chicken",
+    "description": "Lean protein & vitamins",
+    "image": "/Clothing_photo/Girls_Powder_Pink_Frock.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_5",
+    "name": "Sweet Potato Wedges",
+    "description": "Good carbs & essential nutrients",
+    "image": "/Clothing_photo/Mens_Black_Formal_Shirt.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_6",
+    "name": "Whole-Wheat Blueberry Parfait",
+    "description": "Blueberry Parfait",
+    "image": "/Clothing_photo/Mens_Denim_Jacket_Dark_Blue.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_7",
+    "name": "Healthy Salad Bowl",
+    "description": "Fresh greens & nutrients",
+    "image": "/Clothing_photo/Mens_Emerald Green_Vest.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_8",
+    "name": "Green Detox Juice",
+    "description": "Revitalize & cleanse",
+    "image": "/Clothing_photo/Mens_Green T-Shirt.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_9",
+    "name": "Green Detox Juice",
+    "description": "Revitalize & cleanse",
+    "image": "/Clothing_photo/Mens_White_Formal_Shirt.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_10",
+    "name": "Green Detox Juice",
+    "description": "Revitalize & cleanse",
+    "image": "/Clothing_photo/MENS_WINDBRE_KER-NAVY.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_11",
+    "name": "Green Detox Juice",
+    "description": "Revitalize & cleanse",
+    "image": "/Clothing_photo/Mens-Black Denim.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_12",
+    "name": "Green Detox Juice",
+    "description": "Revitalize & cleanse",
+    "image": "/Clothing_photo/Stone-aop.png",
+    "button_text": "View Details"
+  },
+  {
+    "id": "item_13",
+    "name": "Green Detox Juice",
+    "description": "Revitalize & cleanse",
+    "image": "/Clothing_photo/Women-Light-Pink-Shirt.png",
+    "button_text": "View Details"
+  }
+]
