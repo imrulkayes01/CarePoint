@@ -23,7 +23,5 @@ logs
 .env.*
 !.env.example
 
-#composables
-.useAuth.js
-.useFirebase.js
-.useUser.js
+# Ignore everything inside composables
+/composables/*
