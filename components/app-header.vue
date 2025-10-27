@@ -92,13 +92,50 @@
             </div>
           </div>
         </li>
+        <!-- User Profile Dropdown -->
+        <div ref="profileMenuRef" v-if="isLoggedIn" class="relative">
 
-        <li>
+          <img :src="getUser?.photoUrl || '/default-avatar.png'" :alt="getUser?.name || 'User'"
+            class="h-10 w-10 rounded-full object-cover border-2 border-orange-500 cursor-pointer"
+            @click.stop="toggleProfileMenu" />
+
+          <!-- Dropdown Menu -->
+          <transition name="fade-scale">
+            <div v-if="showProfileMenu"
+              class="absolute right-0 mt-3 w-64 bg-white shadow-xl rounded-2xl overflow-hidden border z-50 origin-top-right">
+              <!-- Profile Info -->
+              <div class="flex items-center px-4 py-3 border-b">
+                <img :src="getUser?.photoUrl || '/default-avatar.png'" class="h-12 w-12 rounded-full object-cover mr-3"
+                  alt="User" />
+                <div>
+                  <h3 class="text-[16px] font-semibold text-orange-600 capitalize">
+                    {{ getUser?.name || 'imrul kayes' }}
+                  </h3>
+                  <p class="text-sm text-gray-500">
+                    {{ getUser?.email || 'kayeskayes65@gmail.com' }}
+                  </p>
+                </div>
+              </div>
+
+              <!-- Menu Items -->
+              <div class="py-2">
+
+                <button @click.stop="logout"
+                  class="w-[90%] mx-auto block mt-2 mb-2 py-2 text-white font-medium rounded-lg bg-gradient-to-r from-orange-500 to-red-500 hover:opacity-90 transition">
+                  Logout
+                </button>
+              </div>
+            </div>
+          </transition>
+        </div>
+
+        <!-- Sign In Button (when not logged in) -->
+        <div v-else>
           <NuxtLink to="/signin"
             class="px-4 py-2 border border-blue-200 text-[#303944] rounded-lg font-medium hover:bg-[#FB7185] hover:text-white transition-colors">
             Sign In
           </NuxtLink>
-        </li>
+        </div>
       </ul>
     </div>
 
@@ -123,7 +160,23 @@
           </NuxtLink>
         </li>
 
-        <li>
+        <!-- Mobile User Profile Section -->
+        <div v-if="isLoggedIn" class="flex flex-col space-y-4">
+          <div class="flex items-center space-x-3">
+            <img :src="getUser?.photoUrl || '/default-avatar.png'" :alt="getUser?.name || 'User'"
+              class="h-10 w-10 rounded-full object-cover border-2 border-gray-300" />
+            <span class="text-sm font-medium text-gray-700">
+              {{ getUser?.name || 'User' }}
+            </span>
+          </div>
+          <button @click="logout"
+            class="px-4 py-2 bg-red-500 text-white rounded-lg font-medium hover:bg-red-600 transition-colors">
+            Logout
+          </button>
+        </div>
+
+        <!-- Mobile Sign In Button (when not logged in) -->
+        <li v-else>
           <NuxtLink to="/signin"
             class="px-4 py-2 border border-[#FB7185] text-[#303944] rounded-lg font-medium hover:bg-[#FB7185] hover:text-white transition-colors">
             Sign In</NuxtLink>
@@ -134,18 +187,46 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onBeforeUnmount } from "vue";
+
 const isOpen = ref(false);
+const { isLoggedIn, getUser, initializeUser } = useUser();
+const { logout } = useAuth();
+
+// Dropdown control
+const showProfileMenu = ref(false);
+const profileMenuRef = ref(null);
+
+const toggleProfileMenu = () => {
+  showProfileMenu.value = !showProfileMenu.value;
+};
+
+
+const handleClickOutside = (event) => {
+  if (profileMenuRef.value && !profileMenuRef.value.contains(event.target)) {
+    showProfileMenu.value = false;
+  }
+};
+
+onMounted(() => {
+  initializeUser();
+  document.addEventListener("click", handleClickOutside);
+});
+
+onBeforeUnmount(() => {
+  document.removeEventListener("click", handleClickOutside);
+});
 </script>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s ease;
+.fade-scale-enter-active,
+.fade-scale-leave-active {
+  transition: all 0.25s ease;
 }
 
-.fade-enter-from,
-.fade-leave-to {
+.fade-scale-enter-from,
+.fade-scale-leave-to {
   opacity: 0;
+  transform: scale(0.295);
 }
 </style>

@@ -5,11 +5,11 @@
                 <div class="text-center pt-[0rem]">
                     <h1
                         class="max-w-[1100px] mx-auto text-3xl sm:text-[2.4rem] lg:text-[58px] font-[600] leading-[1.1] lg:leading-[1.4] ">
-                        <span class="text-[#000]">Home Care & Sanctuary Solutions 4</span>
+                        <span class="text-[#000]">Learn. Grow. Succeed.</span>
                     </h1>
-                    <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[1rem] text-gray-600">
+                    <!-- <p class="max-w-[680px] mx-auto lg:text-[22px] text-[16px] font-[400] mt-[1rem] text-gray-600">
                         Discover healthy recipes and book a verified Cooker to bring them to your table.
-                    </p>
+                    </p> -->
 
                     <!-- Search Bar Section -->
                     <div class="max-w-[800px] mx-auto mt-8">
