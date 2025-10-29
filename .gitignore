@@ -24,4 +24,3 @@ logs
 !.env.example
 
 # Ignore everything inside composables
-composables/
