@@ -73,4 +73,8 @@
 const { signInWithGoogle } = useAuth();
 </script>
 
-<style></style>
+<style>
+.hello {
+    background: none;
+}
+</style>
