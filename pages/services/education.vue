@@ -32,18 +32,18 @@
                                 class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 All
                             </button>
-                            <button @click="filterByCategory('breakfast')"
-                                :class="selectedCategory === 'breakfast' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
+                            <button @click="filterByCategory('design')"
+                                :class="selectedCategory === 'design' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
                                 class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 Classy
                             </button>
-                            <button @click="filterByCategory('lunch')"
-                                :class="selectedCategory === 'lunch' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
+                            <button @click="filterByCategory('technology')"
+                                :class="selectedCategory === 'technology' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
                                 class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 Modern
                             </button>
-                            <button @click="filterByCategory('dinner')"
-                                :class="selectedCategory === 'dinner' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
+                            <button @click="filterByCategory('language')"
+                                :class="selectedCategory === 'language' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
                                 class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                                 Education
                             </button>
@@ -69,7 +69,7 @@
                     <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                         <div v-for="education in filteredEducations" :key="education.id"
                             class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
-                            @click="openModal(Education)">
+                            @click="openModal(education)">
                             <div class="relative">
                                 <img :src="education.image" :alt="education.name" class="w-full h-48 object-cover"
                                     @error="console.log('Image failed to load:', education.image)" />

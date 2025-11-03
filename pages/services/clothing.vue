@@ -31,18 +31,18 @@
                             class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                             All
                         </button>
-                        <button @click="filterByCategory('Jacket')"
-                            :class="selectedCategory === 'Jacket' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
+                        <button @click="filterByCategory('jacket')"
+                            :class="selectedCategory === 'jacket' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
                             class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                             Jacket
                         </button>
-                        <button @click="filterByCategory('T-Shirt')"
-                            :class="selectedCategory === 'T-Shirt' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
+                        <button @click="filterByCategory('tshirt')"
+                            :class="selectedCategory === 'tshirt' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
                             class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white  transition-colors">
                             T-Shirt
                         </button>
-                        <button @click="filterByCategory('Panjabi')"
-                            :class="selectedCategory === 'Panjabi' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
+                        <button @click="filterByCategory('panjabi')"
+                            :class="selectedCategory === 'panjabi' ? 'bg-red-400 text-white' : 'bg-white text-gray-600'"
                             class="rounded-lg px-3 lg:px-[1rem] py-2 font-medium shadow-sm border border-gray-200 hover:bg-[#EF4444] hover:text-white transition-colors">
                             Panjabi
                         </button>
@@ -146,19 +146,26 @@ const ClothingData = ref([])
 const isLoading = ref(true)
 
 // Computed filtering
+const normalizeCategory = (value) => {
+    return String(value || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '')
+}
+
 const filteredClothing = computed(() => {
     let filtered = ClothingData.value
 
     // Filter by category
     if (selectedCategory.value !== 'all') {
-        filtered = filtered.filter(c => c.category === selectedCategory.value)
+        filtered = filtered.filter(c => normalizeCategory(c.category) === selectedCategory.value)
     }
 
     // Filter by search
     if (searchQuery.value) {
+        const q = searchQuery.value.toLowerCase()
         filtered = filtered.filter(c =>
-            c.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-            c.description.toLowerCase().includes(searchQuery.value.toLowerCase())
+            c.name.toLowerCase().includes(q) ||
+            c.description.toLowerCase().includes(q)
         )
     }
 
@@ -167,7 +174,8 @@ const filteredClothing = computed(() => {
 
 // Methods
 const filterByCategory = (category) => {
-    selectedCategory.value = category
+    // Accept either raw labels or normalized keys
+    selectedCategory.value = category === 'all' ? 'all' : normalizeCategory(category)
 }
 
 const openModal = (clothing) => {

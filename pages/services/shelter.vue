@@ -20,7 +20,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                                 </svg>
-                                <input v-model="searchQuery" type="text" placeholder="Search food name"
+                                <input v-model="searchQuery" type="text" placeholder="Search shelter name"
                                     class="flex-1 text-gray-800 placeholder-gray-400 border-none outline-none bg-transparent" />
                             </div>
                         </div>
@@ -152,15 +152,48 @@ const isLoading = ref(true)
 // Computed properties
 const filteredShelter = computed(() => {
     let filtered = shelterData.value
-    console.log('Filtering shelters:', {
-        total: shelterData.value.length,
-        category: selectedCategory.value,
-        search: searchQuery.value
-    })
+    const normalizeCategory = (category) => {
+        if (!category) return 'all'
+        const mapping = {
+            apartments: 'apartment',
+            apartment: 'apartment',
+            cottages: 'cottage',
+            cottage: 'cottage',
+            luxuries: 'luxury',
+            luxury: 'luxury',
+        }
+        return (mapping[String(category).toLowerCase()] || String(category).toLowerCase())
+    }
 
-    // Filter by category
-    if (selectedCategory.value !== 'all') {
-        filtered = filtered.filter(shelter => shelter.category === selectedCategory.value)
+    const parseNumber = (value) => {
+        if (value == null) return NaN
+        if (typeof value === 'number') return value
+        const match = String(value).match(/\d+(?:\.\d+)?/)
+        return match ? Number(match[0]) : NaN
+    }
+
+    const selected = normalizeCategory(selectedCategory.value)
+
+    // Filter by category with smart fallbacks
+    if (selected !== 'all') {
+        if (selected === 'luxury') {
+            // Heuristic: luxury = high price or large area/rooms
+            filtered = filtered.filter((shelter) => {
+                const price = parseNumber(shelter.price_per_night)
+                const area = parseNumber(shelter.area)
+                const rooms = parseNumber(shelter.rooms)
+                return (price >= 100) || (area >= 1500) || (rooms >= 8)
+            })
+        } else if (selected === 'cottage') {
+            // Heuristic: cottage = smaller/cozier places (by area or rooms)
+            filtered = filtered.filter((shelter) => {
+                const area = parseNumber(shelter.area)
+                const rooms = parseNumber(shelter.rooms)
+                return (area && area <= 900) || (rooms && rooms <= 3)
+            })
+        } else {
+            filtered = filtered.filter((shelter) => normalizeCategory(shelter.category) === selected)
+        }
     }
 
     // Filter by search query
@@ -171,7 +204,12 @@ const filteredShelter = computed(() => {
         )
     }
 
-    console.log('Filtered result:', filtered.length, 'items')
+    console.log('Filtering shelters:', {
+        total: shelterData.value.length,
+        selected,
+        search: searchQuery.value,
+        result: filtered.length
+    })
     return filtered
 })
 
