@@ -26,10 +26,18 @@
       </div>
 
       <!-- Hamburger Menu Button (Mobile) -->
-      <button class="md:hidden flex flex-col gap-1 focus:outline-none" @click="isOpen = !isOpen">
-        <span class="w-6 h-[2px] bg-[black]"></span>
-        <span class="w-6 h-[2px] bg-black"></span>
-        <span class="w-6 h-[2px] bg-black"></span>
+      <button class="md:hidden focus:outline-none" @click="isOpen = !isOpen">
+        <!-- Hamburger Icon (when menu is closed) -->
+        <div v-if="!isOpen" class="flex flex-col gap-1">
+          <span class="w-6 h-[2px] bg-[black]"></span>
+          <span class="w-6 h-[2px] bg-black"></span>
+          <span class="w-6 h-[2px] bg-black"></span>
+        </div>
+        <!-- Close Icon (X) (when menu is open) -->
+        <svg v-else class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
       </button>
 
       <!-- Desktop Navigation Links -->
@@ -44,13 +52,21 @@
             About
           </NuxtLink>
         </li>
-
         <li>
           <NuxtLink to="/contact" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">
             Contact
           </NuxtLink>
         </li>
-
+        <li>
+          <NuxtLink to="/policy" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">
+            Our Policy
+          </NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/help" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">
+            Help
+          </NuxtLink>
+        </li>
         <li class="relative">
           <div class="group">
             <button type="button"
@@ -143,20 +159,36 @@
     <transition name="fade">
       <ul v-if="isOpen" class="flex flex-col mt-4 space-y-4 text-[18px] md:hidden">
         <li>
-          <NuxtLink to="/" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Home</NuxtLink>
+          <NuxtLink to="/" @click="isOpen = false"
+            class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">About
+          <NuxtLink to="/about" @click="isOpen = false"
+            class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">About
           </NuxtLink>
         </li>
 
         <li>
-          <NuxtLink to="/contact" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Contact
+          <NuxtLink to="/contact" @click="isOpen = false"
+            class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Contact
           </NuxtLink>
         </li>
 
         <li>
-          <NuxtLink to="/services" class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Services
+          <NuxtLink to="/services" @click="isOpen = false"
+            class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Services
+          </NuxtLink>
+        </li>
+
+        <li>
+          <NuxtLink to="/policy" @click="isOpen = false"
+            class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Our Policy
+          </NuxtLink>
+        </li>
+
+        <li>
+          <NuxtLink to="/help" @click="isOpen = false"
+            class="font-medium text-[#303944] hover:text-[#A12137] transition-colors">Help
           </NuxtLink>
         </li>
 
@@ -169,7 +201,7 @@
               {{ getUser?.name || 'User' }}
             </span>
           </div>
-          <button @click="logout"
+          <button @click="logout(); isOpen = false"
             class="px-4 py-2 bg-red-500 text-white rounded-lg font-medium hover:bg-red-600 transition-colors">
             Logout
           </button>
@@ -177,7 +209,7 @@
 
         <!-- Mobile Sign In Button (when not logged in) -->
         <li v-else>
-          <NuxtLink to="/signin"
+          <NuxtLink to="/signin" @click="isOpen = false"
             class="px-4 py-2 border border-[#FB7185] text-[#303944] rounded-lg font-medium hover:bg-[#FB7185] hover:text-white transition-colors">
             Sign In</NuxtLink>
         </li>
