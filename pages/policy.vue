@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-[60vh] bg-[#EBEDF0] px-4 pt-[5rem] lg:pt-[8rem]">
+    <section class="min-h-[60vh] bg-[#EBEDF0] px-4 pt-[5rem] lg:pt-[5rem]">
         <div class="max-w-[960px] mx-auto px-4 py-12">
             <h1 class="text-3xl md:text-4xl font-bold text-[#111827]">Our Policy</h1>
             <p class="mt-3 text-[#4B5563]">Learn how CapePoint protects users and handles data.</p>

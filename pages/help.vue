@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-[60vh] bg-[#EBEDF0] px-4 pt-[5rem] lg:pt-[10rem] py-0 lg:py-24">
+    <section class="min-h-[60vh] bg-[#EBEDF0] px-4 pt-[5rem] lg:pt-[5rem] py-0 lg:py-24">
         <div class="max-w-[960px] mx-auto px-4 py-12">
             <h1 class="text-3xl md:text-4xl font-bold text-[#111827]">Help Center</h1>
             <p class="mt-3 text-[#4B5563]">Get answers, tips, and ways to contact support.</p>
