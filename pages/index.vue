@@ -19,7 +19,7 @@
             Cleaners for your shelter ensuring a life of quality and peace.
           </p>
 
-          <a href="#" class="inline-block lg:text-[22px] text-[16px] mt-[2rem] px-6 py-3 font-semibold text-white 
+          <a href="#" class="inline-block lg:text-[22px] text-[16px] mt-[2rem] px-6 lg:py-3 py-2  font-semibold text-white 
          bg-gradient-to-r from-[#881337] to-orange-500 
          rounded-full shadow-md 
          hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
@@ -46,7 +46,7 @@
             Healthy and Stylish all in one.
           </p>
 
-          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+          <a href="#" class="inline-block font-semibold px-8 lg:py-3 py-2  mt-4 lg:text-[18px] text-[16px] text-white 
          bg-gradient-to-r from-[#881337] to-orange-500 
          rounded-full shadow-md 
          hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
@@ -78,7 +78,7 @@
             Elevate your wardrobe with these classic colours and textures.
           </p>
 
-          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+          <a href="#" class="inline-block font-semibold px-8 lg:py-3 py-2  mt-4 lg:text-[18px] text-[16px] text-white 
          bg-gradient-to-r from-[#881337] to-orange-500 
          rounded-full shadow-md 
          hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
@@ -101,7 +101,7 @@
             of the people. Check out our new rural tour packages.
           </p>
 
-          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+          <a href="#" class="inline-block font-semibold px-8 lg:py-3 py-2  mt-4 lg:text-[18px] text-[16px] text-white 
          bg-gradient-to-r from-[#881337] to-orange-500 
          rounded-full shadow-md 
          hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
@@ -133,7 +133,7 @@
             initiative.
           </p>
 
-          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+          <a href="#" class="inline-block font-semibold px-8 lg:py-3 py-2  mt-4 lg:text-[18px] text-[16px] text-white 
          bg-gradient-to-r from-[#881337] to-orange-500 
          rounded-full shadow-md 
          hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
@@ -156,7 +156,7 @@
             today.
           </p>
 
-          <a href="#" class="inline-block font-semibold px-8 py-3 mt-4 text-[18px] text-white 
+          <a href="#" class="inline-block font-semibold px-8 lg:py-3 py-2  mt-4 lg:text-[18px] text-[16px] text-white 
          bg-gradient-to-r from-[#881337] to-orange-500 
          rounded-full shadow-md 
          hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 

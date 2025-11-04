@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-[60vh] bg-[#F9FAFB] px-4 pt-[8rem] ">
+    <section class="min-h-[60vh] bg-[#EBEDF0] px-4 pt-[5rem] lg:pt-[8rem]">
         <div class="max-w-[960px] mx-auto px-4 py-12">
             <h1 class="text-3xl md:text-4xl font-bold text-[#111827]">Our Policy</h1>
             <p class="mt-3 text-[#4B5563]">Learn how CapePoint protects users and handles data.</p>
@@ -43,9 +43,12 @@
                 </div>
             </div>
 
-            <div class="mt-10">
-                <NuxtLink to="/help"
-                    class="inline-block px-5 py-3 rounded-lg bg-[tomato] text-[white] hover:bg-[#FB7185] transition">
+            <div class="mt-10 w-full flex justify-center lg:justify-start">
+                <NuxtLink to="/help" class="inline-block font-semibold px-5 lg:py-3 py-2  text-[16px] lg:text-[18px] rounded-[50px] text-white  
+         bg-gradient-to-r from-[#881337] to-orange-500 
+          shadow-md 
+         hover:from-[#FB7185] hover:to-[#FB7185] hover:shadow-lg 
+         transition-all duration-300 ease-in-out">
                     Need help? Visit Help Center
                 </NuxtLink>
             </div>
